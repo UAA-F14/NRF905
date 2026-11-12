@@ -709,7 +709,7 @@
         "uuid": "ab6a3136-f52e-4972-9074-57064f23c351"
       }
     ],
-    "used_designators": "X2,L1-6,#PWR1-28,Y1,R1-4,AE1-2,C1-10,C12-26,U1-2",
+    "used_designators": "SW1-20,SW22-24,SW26-28,J1-8,#FLG2-3,X2,L1-6,#PWR1-35,Y1,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
     "variants": [
       {
         "name": "433 MHz"
