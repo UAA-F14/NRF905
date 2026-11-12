@@ -4,4 +4,5 @@
 	(lib (name "TSX-3225_16.0000MF18X-AC3") (type "KiCad") (uri "/home/dasreyxr/wkn/Knowledge-db/ghfiles/NRF905/design/KicadLib/TSX-3225_16.0000MF18X-AC3") (options "") (descr ""))
 	(lib (name "TSX-3225") (type "KiCad") (uri "/home/dasreyxr/wkn/Knowledge-db/ghfiles/NRF905/design/KicadLib/TSX-3225") (options "") (descr ""))
 	(lib (name "X322516MLB4SI") (type "KiCad") (uri "/home/dasreyxr/wkn/Knowledge-db/ghfiles/NRF905/design/KicadLib/X322516MLB4SI") (options "") (descr ""))
+	(lib (name "ABM3B-16") (type "KiCad") (uri "/home/dasreyxr/wkn/Knowledge-db/ghfiles/NRF905/design/KicadLib/ABM3B-16.000MHZ-10-1-U-T") (options "") (descr ""))
 )
