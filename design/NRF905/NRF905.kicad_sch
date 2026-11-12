@@ -1369,182 +1369,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Clock:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_SparkFun-Clock:Crystal-SMD-5x3.2mm"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Crystal"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "PROD_ID" "XTAL-"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PCM_SparkFun-PowerSymbol:GND"
 			(power global)
 			(pin_names
@@ -1993,6 +1817,353 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TSX-3225_16.0000MF18X-AC3:TSX-3225_16.0000MF18X-AC3"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at -7.62 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TSX-3225_16.0000MF18X-AC3"
+				(at -7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TSX-3225_16.0000MF18X-AC3:XTAL_TSX-3225_16.0000MF18X-AC3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSX-3225_16.0000MF18X-AC3_EPSON.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Description" "16 MHz ±10ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSX-3225_16.0000MF18X-AC3_EPSON.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "EPSON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MPN" "TSX-3225 16.0000MF18X-AC3"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "SMD-4 EPSON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SOURCE_URL" "https://www.snapeda.com/parts/TSX-3225%2016.0000MF18X-AC3/Epson/view-part/"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TSX-3225_16.0000MF18X-AC3_0_0"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 4.318) (xy -1.016 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.54) (xy -1.016 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 4.318) (xy 0.762 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.762) (xy -0.508 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 4.318) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy -0.508 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.318) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 66.04 60.96)
@@ -2001,7 +2172,7 @@
 		(uuid "152c7a03-cc51-402b-8d79-1e9148ebaca3")
 	)
 	(junction
-		(at 33.02 27.94)
+		(at 17.78 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46a851d6-35a6-4236-9293-a7266f37edc0")
@@ -2049,16 +2220,10 @@
 		(uuid "7beff155-1a29-4ee1-9298-f1500a5f48bd")
 	)
 	(junction
-		(at 48.26 19.05)
+		(at 17.78 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92bb4146-967d-4e4c-95ed-438beb039063")
-	)
-	(junction
-		(at 33.02 19.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b2eb6e0-1bc6-4c88-9dc1-c3bab6e14f5a")
+		(uuid "846abe96-b43d-404b-858b-80195fcd02c8")
 	)
 	(junction
 		(at 58.42 17.78)
@@ -2067,13 +2232,19 @@
 		(uuid "a656a630-b3c1-4d24-8967-57065cffb802")
 	)
 	(junction
+		(at 48.26 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3abd8c-88cd-4f81-afc9-60a39a1048e4")
+	)
+	(junction
 		(at 40.64 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9980f79-ad1e-42d3-8733-34f8be7ed4e1")
 	)
 	(junction
-		(at 40.64 36.83)
+		(at 33.02 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9c135a4-3d66-4fc1-adb4-24b4e57e2ee4")
@@ -2091,10 +2262,20 @@
 		(uuid "cffd75e4-cbcd-4ae6-ab84-29584d014983")
 	)
 	(junction
-		(at 48.26 27.94)
+		(at 48.26 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e520196e-84b3-4bb2-8bd6-9ec34ba5421d")
+	)
+	(wire
+		(pts
+			(xy 17.78 17.78) (xy 17.78 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00447f25-ed2b-4607-a45d-e58a21527d8d")
 	)
 	(wire
 		(pts
@@ -2118,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 17.78) (xy 48.26 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a947ce0-d3db-403e-9254-bf0c92e80478")
+	)
+	(wire
+		(pts
 			(xy 53.34 74.93) (xy 53.34 71.12)
 		)
 		(stroke
@@ -2125,6 +2316,16 @@
 			(type default)
 		)
 		(uuid "0b3f0539-5718-41eb-894a-c94e9177a9a9")
+	)
+	(wire
+		(pts
+			(xy 17.78 29.21) (xy 29.21 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b89df8-536c-426d-9f1f-4137926a6617")
 	)
 	(wire
 		(pts
@@ -2288,23 +2489,23 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 16.51) (xy 33.02 19.05)
+			(xy 17.78 16.51) (xy 17.78 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "477b413a-65c7-4d1d-8325-d0949242dad6")
+		(uuid "4632be18-4af4-4336-a48a-9ef08a5dcb97")
 	)
 	(wire
 		(pts
-			(xy 33.02 19.05) (xy 33.02 27.94)
+			(xy 17.78 17.78) (xy 20.32 17.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48685422-cda5-4350-b809-79853fc99fb1")
+		(uuid "4a2b3987-a58a-4a91-89d6-a8f5cfb38c5e")
 	)
 	(wire
 		(pts
@@ -2358,16 +2559,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 19.05) (xy 48.26 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d24363-8e41-4fdf-824b-d240d50a179d")
-	)
-	(wire
-		(pts
 			(xy 102.87 36.83) (xy 105.41 36.83)
 		)
 		(stroke
@@ -2385,16 +2576,6 @@
 			(type default)
 		)
 		(uuid "6046c1a2-cc21-42e5-b457-9a510cae583e")
-	)
-	(wire
-		(pts
-			(xy 48.26 30.48) (xy 48.26 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62ab9ae3-a908-4119-8ca0-957c1b153bcc")
 	)
 	(wire
 		(pts
@@ -2418,17 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 16.51) (xy 48.26 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731dca3f-127e-42a3-ace5-80c7bf16dcde")
-	)
-	(wire
-		(pts
-			(xy 40.64 36.83) (xy 40.64 39.37)
+			(xy 33.02 36.83) (xy 33.02 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2445,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "784c26e2-e703-4ccd-b468-1fecf2d88f9c")
+	)
+	(wire
+		(pts
+			(xy 48.26 17.78) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ffe0f79-e26a-4de3-8476-fa7ed26cdd18")
 	)
 	(wire
 		(pts
@@ -2478,16 +2659,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 36.83 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc4923e-7f51-4d75-b466-c8db577f1abc")
-	)
-	(wire
-		(pts
 			(xy 67.31 25.4) (xy 67.31 26.67)
 		)
 		(stroke
@@ -2498,7 +2669,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 36.83) (xy 48.26 36.83)
+			(xy 17.78 36.83) (xy 48.26 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 19.05) (xy 48.26 27.94)
+			(xy 48.26 16.51) (xy 48.26 17.78)
 		)
 		(stroke
 			(width 0)
@@ -2668,16 +2839,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 19.05) (xy 38.1 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8745eda-24eb-42eb-a864-1f05a9784723")
-	)
-	(wire
-		(pts
 			(xy 140.97 26.67) (xy 143.51 26.67)
 		)
 		(stroke
@@ -2708,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 27.94) (xy 44.45 27.94)
+			(xy 48.26 29.21) (xy 36.83 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2728,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 35.56) (xy 33.02 36.83)
+			(xy 17.78 35.56) (xy 17.78 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2745,16 +2906,6 @@
 			(type default)
 		)
 		(uuid "d754beeb-d124-44f3-a387-328e200a6386")
-	)
-	(wire
-		(pts
-			(xy 33.02 30.48) (xy 33.02 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9921df7-da00-4c76-948c-4bb9b4900f76")
 	)
 	(wire
 		(pts
@@ -2857,7 +3008,7 @@
 		(uuid "fcb6245a-db9c-49f3-b39f-48578543e008")
 	)
 	(label "XC1"
-		(at 33.02 16.51 0)
+		(at 17.78 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3088,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 58.42 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3216,7 +3367,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-Resistor:R")
-		(at 40.64 27.94 0)
+		(at 33.02 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3224,10 +3375,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1454c1ab-a7ff-4ca4-8f36-1236cfbbc555")
 		(property "Reference" "R1"
-			(at 40.64 21.59 0)
+			(at 33.02 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3237,7 +3387,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 40.64 24.13 0)
+			(at 33.02 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3247,7 +3397,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
-			(at 40.64 32.512 0)
+			(at 33.02 33.782 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3258,7 +3408,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 39.37 36.83 0)
+			(at 31.75 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3269,7 +3419,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 39.37 0)
+			(at 33.02 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3280,7 +3430,7 @@
 			)
 		)
 		(property "PROD_ID" "RES-07856"
-			(at 40.64 34.798 0)
+			(at 33.02 36.068 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3300,6 +3450,167 @@
 			(project "NRF905"
 				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TSX-3225_16.0000MF18X-AC3:TSX-3225_16.0000MF18X-AC3")
+		(at 33.02 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1462fca1-e2b8-4aa4-8f61-2e749b2f326a")
+		(property "Reference" "X1"
+			(at 33.02 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16M"
+			(at 33.02 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TSX-3225_16.0000MF18X-AC3:XTAL_TSX-3225_16.0000MF18X-AC3"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSX-3225_16.0000MF18X-AC3_EPSON.pdf"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Description" "16 MHz ±10ppm Crystal 18pF 60 Ohms 4-SMD, No Lead"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSX-3225_16.0000MF18X-AC3_EPSON.pdf"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "EPSON"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "TSX-3225 16.0000MF18X-AC3"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "SMD-4 EPSON"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SOURCE_URL" "https://www.snapeda.com/parts/TSX-3225%2016.0000MF18X-AC3/Epson/view-part/"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 33.02 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "95e8a78d-440a-4bfc-8a76-1ee47d02de74")
+		)
+		(pin "2"
+			(uuid "2d3a84b2-c7fb-492f-9132-9af0517d1bc0")
+		)
+		(pin "1"
+			(uuid "55042d17-75ae-471d-b957-873f8f7d79e9")
+		)
+		(pin "3"
+			(uuid "193a62e3-4c89-4e49-b5b5-af6bfc1cbbac")
+		)
+		(instances
+			(project "NRF905"
+				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -3339,7 +3650,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.47 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3498,7 +3809,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.31 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3541,6 +3852,84 @@
 			(project "NRF905"
 				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 45.72 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396274bf-55fc-4e23-9eab-a6a3f4e9045b")
+		(property "Reference" "#PWR06"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 26.67 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Clock:Crystal-SMD-5x3.2mm"
+			(at 45.72 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1379560d-7e01-42e4-ac01-c60ec73065ba")
+		)
+		(instances
+			(project "NRF905"
+				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3658,7 +4047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 90.17 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3708,7 +4097,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:GND")
-		(at 40.64 39.37 0)
+		(at 33.02 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3719,7 +4108,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eedd5c5-8a90-4204-b482-990e10b7350c")
 		(property "Reference" "#PWR04"
-			(at 40.64 45.72 0)
+			(at 33.02 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3730,7 +4119,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 43.18 0)
+			(at 33.02 43.18 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3740,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Clock:Crystal-SMD-5x3.2mm"
-			(at 40.64 39.37 0)
+			(at 33.02 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +4140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 39.37 0)
+			(at 33.02 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +4151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 48.26 0)
+			(at 33.02 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 154.94 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4363,7 +4752,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4445,7 +4834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4525,7 +4914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 52.07 59.9948 0)
 			(hide yes)
 			(show_name no)
@@ -4808,97 +5197,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Clock:Crystal")
-		(at 40.64 19.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf01cf75-302d-4cd9-a84b-243dcb68b48b")
-		(property "Reference" "X1"
-			(at 40.64 12.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "16M"
-			(at 40.64 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_SparkFun-Clock:Crystal-SMD-5x3.2mm"
-			(at 40.64 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Crystal"
-			(at 40.64 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PROD_ID" "XTAL-"
-			(at 40.64 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5affecb6-6982-48d1-8d17-904f91dbc92a")
-		)
-		(pin "2"
-			(uuid "b2a73c31-8fa2-462a-8eaf-023d27d434e6")
-		)
-		(instances
-			(project "NRF905"
-				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 48.26 71.12 90)
 		(unit 1)
@@ -4929,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 52.07 70.1548 0)
 			(hide yes)
 			(show_name no)
@@ -5102,7 +5400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +5796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5846,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 33.02 33.02 180)
+		(at 17.78 33.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5558,7 +5856,7 @@
 		(dnp no)
 		(uuid "e0a007c9-4b89-42c1-8b99-e49be7b58218")
 		(property "Reference" "C1"
-			(at 27.94 31.7437 0)
+			(at 12.7 31.7437 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5568,7 +5866,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 27.94 34.29 0)
+			(at 12.7 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,8 +5875,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 33.02 33.02 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5589,7 +5887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 33.02 0)
+			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +5898,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 33.02 33.02 0)
+			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5657,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 58.42 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5738,7 +6036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.6748 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5817,7 +6115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5977,7 +6275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 73.3552 69.85 0)
 			(hide yes)
 			(show_name no)
