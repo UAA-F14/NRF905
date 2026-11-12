@@ -1,4 +1,5 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "NRF905") (type "KiCad") (uri "/home/dasreyxr/wkn/Knowledge-db/ghfiles/NRF905/design/KicadLib/NRF905/NRF905.kicad_sym") (options "") (descr ""))
+	(lib (name "TSX-3225_16.0000MF18X-AC3") (type "KiCad") (uri "/home/dasreyxr/wkn/Knowledge-db/ghfiles/NRF905/design/KicadLib/TSX-3225_16.0000MF18X-AC3/TSX-3225_16.0000MF18X-AC3.kicad_sym") (options "") (descr ""))
 )
