@@ -1,0 +1,117 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "TSX-3225" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "X" (id 0) (at -2.54388 6.1053 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "TSX-3225" (id 1) (at -2.541 3.8115 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "TSX-3225:TSX-3225" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Datasheet" "https://s3.amazonaws.com/snapeda/datasheet/TSX-3225_EPSON.pdf" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/TSX-3225_EPSON.pdf" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "38.4MHz ±10ppm Crystal 8.5pF 40 Ohms 4-SMD, No Lead" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "EPSON" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MPN" "TSX-3225" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SMD-4 EPSON" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SOURCE_URL" "https://www.snapeda.com/parts/TSX-3225/Epson/view-part/" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "TSX-3225_0_0"
+      (polyline
+        (pts (xy 2.286 0.0) (xy 2.54 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.254 0.0)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.889 1.524) (xy 0.889 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.889 -1.524) (xy 1.651 -1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.651 -1.524) (xy 1.651 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.651 1.524) (xy 0.889 1.524)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.286 1.778) (xy 2.286 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.286 0.0) (xy 2.286 -1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.254 1.778) (xy 0.254 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.254 0.0) (xy 0.254 -1.778)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.778 1.905) (xy -1.778 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 2.54) (xy 4.318 2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.318 2.54) (xy 4.318 1.905)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 4.318 -1.905) (xy 4.318 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -2.54) (xy 4.318 -2.54)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -1.778 -2.54) (xy -1.778 -1.905)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 5.08 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -2.54 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 2.54 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
