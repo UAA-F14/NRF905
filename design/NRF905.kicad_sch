@@ -1708,6 +1708,12 @@
 		(uuid "9b2eb6e0-1bc6-4c88-9dc1-c3bab6e14f5a")
 	)
 	(junction
+		(at 95.25 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdcae24f-ab5f-4186-9bd7-3c54c0b959ce")
+	)
+	(junction
 		(at 67.31 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1718,6 +1724,66 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e520196e-84b3-4bb2-8bd6-9ec34ba5421d")
+	)
+	(wire
+		(pts
+			(xy 105.41 21.59) (xy 105.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c4b4af-3a17-4619-9a7b-0aab5325f5aa")
+	)
+	(wire
+		(pts
+			(xy 55.88 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ce7339-acc4-489f-8513-3bb903b7a8cf")
+	)
+	(wire
+		(pts
+			(xy 95.25 26.67) (xy 93.98 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d0fa0d-41d1-4470-b9b1-491d18d769da")
+	)
+	(wire
+		(pts
+			(xy 95.25 26.67) (xy 97.79 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e92a9e-0c3f-4782-a2c5-7431ad4f1266")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 96.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ad4910a-3622-4bce-8d91-e7e7757abcb6")
+	)
+	(wire
+		(pts
+			(xy 50.8 59.69) (xy 58.42 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450c02c0-80e7-4d71-9cf9-68b2229e412a")
 	)
 	(wire
 		(pts
@@ -1738,6 +1804,16 @@
 			(type default)
 		)
 		(uuid "48685422-cda5-4350-b809-79853fc99fb1")
+	)
+	(wire
+		(pts
+			(xy 96.52 57.15) (xy 93.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2a6293-7eb0-4714-8542-2ceb56c2f912")
 	)
 	(wire
 		(pts
@@ -1768,6 +1844,26 @@
 			(type default)
 		)
 		(uuid "731dca3f-127e-42a3-ace5-80c7bf16dcde")
+	)
+	(wire
+		(pts
+			(xy 57.15 57.15) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f03d77-677e-479f-956a-3a89043df4c1")
+	)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 95.25 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f64887-b9e7-481f-97d8-cb1bbdd09e5d")
 	)
 	(wire
 		(pts
@@ -1821,6 +1917,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 52.07) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67af0ab-bc53-40ec-b594-f0f95a2c315d")
+	)
+	(wire
+		(pts
 			(xy 59.69 92.71) (xy 64.77 92.71)
 		)
 		(stroke
@@ -1858,6 +1964,36 @@
 			(type default)
 		)
 		(uuid "d9921df7-da00-4c76-948c-4bb9b4900f76")
+	)
+	(wire
+		(pts
+			(xy 55.88 49.53) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8598dd-03ed-4c79-bf25-6e49fe11877c")
+	)
+	(wire
+		(pts
+			(xy 95.25 21.59) (xy 95.25 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0589d8b-2982-49e5-a732-d1ecb5022531")
+	)
+	(wire
+		(pts
+			(xy 102.87 26.67) (xy 105.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed597e80-8dd3-4744-a70f-83962db96ffe")
 	)
 	(image
 		(at 219.71 55.88)
@@ -3494,6 +3630,76 @@
 		)
 		(uuid "034e7f10-6e14-4dc2-9fbf-e234d370432b")
 	)
+	(label "XC1"
+		(at 57.15 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08a72311-b564-468e-b894-0b87c8e79f39")
+	)
+	(label "XC2"
+		(at 96.52 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13dd9ac0-e06a-45b8-b2c7-595d850ab554")
+	)
+	(label "XC2"
+		(at 96.52 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4832fc24-fcd0-4370-b085-743bb8b3d35a")
+	)
+	(label "XC2"
+		(at 96.52 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "497a46be-d660-4dab-822d-0abf756c4c88")
+	)
+	(label "SPI_MISO"
+		(at 96.52 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6187d3c8-90f6-47e5-9231-3a6b2bbf1430")
+	)
+	(label "XC2"
+		(at 96.52 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "734cf855-23e5-4753-aeb0-0f31d64c68c6")
+	)
+	(label "SPI_MOSI"
+		(at 55.88 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fe3356d-f29c-411c-8ba5-caaaefd7e62b")
+	)
 	(label "XC2"
 		(at 74.93 90.17 180)
 		(effects
@@ -3503,6 +3709,36 @@
 			(justify right bottom)
 		)
 		(uuid "9528cd50-acc5-46af-96f8-ab777609dd5f")
+	)
+	(label "XC2"
+		(at 96.52 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c34498-4f65-4afa-a32b-cb12b1968404")
+	)
+	(label "SPI_SCK"
+		(at 55.88 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c535006a-9098-4109-abe8-3373b2d0ab72")
+	)
+	(label "SPI_CSN"
+		(at 55.88 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f148480e-c9f9-4c1f-887b-8623d13131a7")
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-PowerSymbol:VDD")
@@ -3904,6 +4140,84 @@
 			(project "NRF905"
 				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-PowerSymbol:GND")
+		(at 95.25 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6a876b-d37f-45b3-b513-37d5e03edcc7")
+		(property "Reference" "#PWR01"
+			(at 95.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 95.25 73.66 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Clock:Crystal-SMD-5x3.2mm"
+			(at 95.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d804748-a838-4ff4-95ef-ece763ea1c76")
+		)
+		(instances
+			(project "NRF905"
+				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4324,6 +4638,86 @@
 			(project "NRF905"
 				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 100.33 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "debaabb7-0649-4cfc-b2eb-36b56bf79633")
+		(property "Reference" "C8"
+			(at 100.3363 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33p"
+			(at 100.3363 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NRF905:QFN50P500X500X90-33N"
+			(at 100.33 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "caaf7552-83e5-4ec6-9726-d2701716bcf0")
+		)
+		(pin "2"
+			(uuid "a400a782-1b18-4a6c-b05e-b734a1ed5420")
+		)
+		(instances
+			(project "NRF905"
+				(path "/ab6a3136-f52e-4972-9074-57064f23c351"
+					(reference "C8")
 					(unit 1)
 				)
 			)
