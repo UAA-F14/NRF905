@@ -527,6 +527,35 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Ant",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "Digitales",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "Supply",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -534,7 +563,32 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "Ant",
+        "pattern": "/ANT_-"
+      },
+      {
+        "netclass": "Ant",
+        "pattern": "/ANT_+"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "Digitales",
+        "pattern": "/TX_EN"
+      },
+      {
+        "netclass": "Supply",
+        "pattern": "VDD_PA"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -675,6 +729,18 @@
           "label": "DATASHEET_URL",
           "name": "DATASHEET_URL",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -725,7 +791,7 @@
         "uuid": "ab6a3136-f52e-4972-9074-57064f23c351"
       }
     ],
-    "used_designators": "SW1-20,SW22-24,SW26-28,J1-8,#FLG2-3,X2,L1-6,#PWR1-35,Y1,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
+    "used_designators": "SW1-20,SW22-24,SW26-28,J1-9,#FLG2-3,X2,L1-6,#PWR1-35,Y1,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
     "variants": [
       {
         "name": "433 MHz"
