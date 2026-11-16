@@ -531,18 +531,27 @@
       },
       {
         "clearance": 0.2,
-        "name": "Ant",
+        "name": "ANT50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 2.0,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.2,
+        "name": "Ant",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": ""
       },
       {
         "clearance": 0.2,
         "name": "Digitales",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": ""
@@ -551,7 +560,7 @@
         "clearance": 0.2,
         "name": "Supply",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -566,8 +575,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "ANT50",
+        "pattern": "ANT50"
       },
       {
         "netclass": "Ant",
@@ -588,6 +597,10 @@
       {
         "netclass": "Supply",
         "pattern": "VDD_PA"
+      },
+      {
+        "netclass": "ANT50",
+        "pattern": "/ANT50"
       }
     ]
   },
@@ -800,7 +813,7 @@
         "uuid": "ab6a3136-f52e-4972-9074-57064f23c351"
       }
     ],
-    "used_designators": "SW1-20,SW22-24,SW26-28,J1-9,#FLG1-4,X2,L1-6,#PWR1-35,Y1,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
+    "used_designators": "SW1-20,SW22-24,SW26-28,J1-9,#FLG1-5,X2,L1-6,#PWR1-35,Y1,TP1-4,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
     "variants": [
       {
         "name": "433 MHz"
