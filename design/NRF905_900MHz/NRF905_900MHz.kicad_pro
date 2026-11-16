@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -565,8 +562,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Default",
@@ -783,6 +780,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -795,7 +800,7 @@
         "uuid": "ab6a3136-f52e-4972-9074-57064f23c351"
       }
     ],
-    "used_designators": "SW1-20,SW22-24,SW26-28,J1-9,#FLG2-3,X2,L1-6,#PWR1-35,Y1,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
+    "used_designators": "SW1-20,SW22-24,SW26-28,J1-9,#FLG1-4,X2,L1-6,#PWR1-35,Y1,R1-8,R10-11,D1,AE1-2,C1-26,U1-3",
     "variants": [
       {
         "name": "433 MHz"
