@@ -6079,7 +6079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ABM3B-16:XTAL_ABM3B-16.000MHZ-10-1-U-T"
+		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM8AIG-4Pin_3.2x2.5mm"
 			(at 26.67 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -9265,7 +9265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Molex_73251-1153_EdgeMount_Horizontal"
 			(at 162.56 58.42 0)
 			(hide yes)
 			(show_name no)
